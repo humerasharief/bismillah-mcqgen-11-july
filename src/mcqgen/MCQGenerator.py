@@ -11,7 +11,7 @@ from langchain .llms import OpenAI
 from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain
 from langchain.chains import SequentialChain
-from langchain.callbacks import get_openai_callback
+from langchain_community.callbacks.manager import get_openai_callback
 
 # Loading the environment variables from the .env file 
 load_dotenv()
