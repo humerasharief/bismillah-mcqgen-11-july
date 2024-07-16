@@ -14,7 +14,7 @@ load_dotenv()
 
 # Loading json file
 try:
-    with open(r'C:\Users\Lenovo\bismillah-mcqgen-11-july\Response.json', 'r') as file:
+    with open('Response.json', 'r') as file:
         RESPONSE_JSON = json.load(file)
 except Exception as e:
     traceback.print_exception(type(e), e, e.__traceback__)
